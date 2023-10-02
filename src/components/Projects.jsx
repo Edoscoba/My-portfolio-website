@@ -83,12 +83,12 @@ const Projects = () => {
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <h2>About</h2>
-                      <p></p>
+                      <h2>About me</h2>
+                      <p>My natural empathetic nature, combined with my exceptional communication skills, fosters strong relationships in the workplace. I am always open to collaboration, eagerly sharing my knowledge and expertise to help others grow and succeed. My ability to build bridges and foster teamwork drives productivity and cultivates a harmonious work environment.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-              </div>}
+              </div> }
             </TrackVisibility>
           </Col>
         </Row>
