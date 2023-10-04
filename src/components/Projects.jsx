@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import  ProjectCard  from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg1 from "../assets/img/project-img1.jpg";
+import projImg2 from "../assets/img/project-img2.jpg";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,12 +14,12 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "Easy Bank landing page",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Multi Step Form",
       description: "Design & Development",
       imgUrl: projImg2,
     },
@@ -26,20 +29,21 @@ const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
+      title: "A ChatBot",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg4,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
     },
+    
   ];
 
   return (
